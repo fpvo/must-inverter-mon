@@ -37,7 +37,7 @@ const CONFIG = {
 // scale: на що помножити сире число. signed: чи є мінус.
 const REGISTERS = [
   // === МОНІТОРИНГ (Read Only) ===
-  { id: "work_state", addr: 25201, type: "status" }, // 2:OffGrid, 3:GridTie...
+  { id: "work_state", addr: 25201, type: "status", scale: 1 }, // 2:OffGrid, 3:GridTie...
   { id: "battery_v", addr: 25205, scale: 0.1 },
   { id: "inverter_v", addr: 25206, scale: 0.1 },
   { id: "grid_v", addr: 25207, scale: 0.1 },
