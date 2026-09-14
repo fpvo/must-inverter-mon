@@ -74,6 +74,8 @@ dist
 .dynamodb/
 inverter_data.db
 inverter_data.json
+mosquitto/data/
+mosquitto/log/
 # TernJS port file
 .tern-port
 # Stores VSCode versions used for testing VSCode extensions
